@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/surya/IdeaProjects/DealsDray/src/test/java/script/Testcase1.java">
+        <classes>
+            <class name="script.Testcase1">
+                <methods>
+                    <include name="TestDesktopUI"/>
+                    <include name="TestmobileUI"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/surya/IdeaProjects/DealsDray/src/test/java/script/Testcase2.java">
+        <classes>
+            <class name="script.Testcase2">
+                <methods>
+                    <include name="test2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
